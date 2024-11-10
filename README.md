@@ -1,6 +1,12 @@
 # Activity Recognition and Step Detection for Wearable Devices
 ## Project Description
 This project uses real-user sensor data collected from wearable devices to classify different activities (e.g., walking, running, standing, cycling) and count the number of steps taken. The dataset consists of multi-sensor data (accelerometer, gyroscope, altitude) over time, and the solution applies signal processing and machine learning models to classify the activities and detect step counts.
+
+## Contributors
+Youmna Abboud, Cyrus Achtari, Jean-Claude Rihani
+
+This project was completed at **ETH** as part of the **Mobile Health and Activity Monitoring** course.
+
 ## Data
 The dataset consists of multiple .pkl files containing the following sensor data:
 - Accelerometer (ax, ay, az): X, Y, and Z accelerometer data points.
@@ -40,7 +46,9 @@ The models achieve the following performance metrics on the validation set:
 ## Activity-based classifier:
 - Accuracy: 94.11%
 - Balanced Accuracy: 93.75%
-# Acknowledgements
-- Data source: Kaggle Activity Recognition Dataset
-- Libraries: NumPy, SciPy, XGBoost, scikit-learn, and others for their excellent implementations of machine learning and signal processing algorithms.
-- Contributors: Youmna Abboud, Cyrus Achtari, Jean-Claude Rihani 
+# Data Source
+Kaggle Activity Recognition Dataset
+
+# Libraries
+NumPy, SciPy, XGBoost, scikit-learn, and others for their excellent implementations of machine learning and signal processing algorithms.
+
